@@ -10,6 +10,7 @@
     "@govuk-prototype-kit/task-list": "1.1.2",
     "govuk-frontend": "4.7.0",
     "govuk-prototype-kit": "13.15.3",
-    "jquery": "3.7.1"
+    "jquery": "3.7.1",
+    "nunjucks": "^3.2.4"
   }
 }
