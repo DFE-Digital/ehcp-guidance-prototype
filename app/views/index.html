@@ -1,26 +1,14 @@
-{% extends "layouts/main.html" %}
-
-{% set pageName="Home" %}
-
-{% block content %}
+{% extends "layouts/main.html" %} {% set pageName="Home" %} {% block content %}
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
-
     {% include "govuk-prototype-kit/includes/homepage-top.njk" %}
 
-    <h1 class="govuk-heading-xl">
-      {{ serviceName }}
-    </h1>
+    <h1 class="govuk-heading-xl">{{ serviceName }}</h1>
 
-    <h1 class="govuk-heading-l">
-      Guidance prototype - November 2023
-    </h1>
+    <h1 class="govuk-heading-l">Guidance prototype - November 2023</h1>
 
-    <a href="manual-proto-november.html" class="govuk-link">Guidance prototype - November 2023</a>
-
-
-
+    <a href="guidance-proto-november.html" class="govuk-link">Guidance prototype - November 2023</a>
 
     <!-- {% include "govuk-prototype-kit/includes/homepage-bottom.njk" %} -->
   </div>
