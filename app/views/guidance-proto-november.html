@@ -6,6 +6,11 @@
 
 {% block content %}
 
+<style>
+  .govuk-main-wrapper {
+    padding-top: 0px;
+  }
+  </style>
 
 <div>
 <header
@@ -13,8 +18,22 @@
 </header>
 </div>
 
+
+
 <div class="govuk-width-container">
   <!-- <main class="govuk-main-wrapper"> -->
+
+  <div class="govuk-phase-banner">
+    <p class="govuk-phase-banner__content">
+      <strong class="govuk-tag govuk-phase-banner__content__tag">
+        Alpha
+      </strong>
+      <span class="govuk-phase-banner__text">
+        Please give us feedback on this guidance by <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yXfS-grGoU2187O4s0qC-T97oglKFvVKgdQrXP2QCAZUN1Y5WlE4NFA4NlhMM0dYQVFLMzJCWUtYMi4u&wdLOR=c52AC8206-63EA-4114-A9F8-89A0F5554F04" class="govuk-link">completing this survey</a>.
+      </span>
+    </p>
+  </div>
+
     <div class="govuk-breadcrumbs">
       <ol class="govuk-breadcrumbs__list">
         <li class="govuk-breadcrumbs__list-item">
@@ -390,13 +409,19 @@
       <p class="govuk-body">Systems should support practitioners to be proactive in sharing information as early as possible to help identify and assess needs to respond with advice.</p>
       <p class="govuk-body">When thinking about developing or purchasing new systems, consider:</p>
       <ul class="govuk-list govuk-list--bullet">
-        <li>how the product will link with other systems in the local authority, such as health </li>
+        <li>how the product will link with other systems in the local authority, such as health</li>
         <li>how it will link with third party systems and applications, such as education systems</li>
         <li>how it meets open application programming interfaces (API) standards</li>
         <li>examples of collaboration or integration from the work of other local authorities and suppliers</li>
         <li>the appropriate and secure transfer of information between systems</li>
         <li>how it will support local authorities to meet <a href="https://ico.org.uk/for-organisations/dp-at-the-end-of-the-transition-period/data-protection-and-the-eu-in-detail/the-uk-gdpr/" class="govuk-link">data protection regulations</a>.</li>
       </ul>
+      <p class="govuk-body">You should provide examples of information sharing cases with your potential suppliers and
+        developers to enable them to identify the options available.</p>
+        <p class="govuk-body">You should also follow the guidance set out in <a href="https://www.gov.uk/government/publications/safeguarding-practitioners-information-sharing-advice" class="govuk-link">Information sharing advice for safeguarding practitioners</a>
+          and the <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/ico-codes-of-practice/data-sharing-code/" class="govuk-link">Data Sharing: A Code of Practice</a>.
+        </p>
+
     </div>
   </div>
 
@@ -417,12 +442,23 @@
     <div class="govuk-accordion__section-header">
       <h2 class="govuk-accordion__section-heading">
         <span class="govuk-accordion__section-button" id="accordion-default-heading-13">
-          Public Sector Equality Duty (PSED)
+          Interoperability
         </span>
       </h2>
     </div>
     <div id="accordion-default-content-13" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-13">
-      <p class="govuk-body">Local authorities must have 'due regard' to the <a href="http://www.legislation.gov.uk/ukpga/2010/15/section/149" class="govuk-link">PSED</a>.</p>
+      <p class="govuk-body">Interoperability means the ability of computer systems or software to exchange and make use of information. Delivering education, health and care plans requires many organisations to work together.</p>
+      <p class="govuk-body">Information may need to be shared within and between local authorities and other partners such as:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>education settings</li>
+        <li>health services</li>
+        <li>schools or colleges</li>
+        <li>adult social care</li>
+        <li>other agencies</li>
+      </ul>
+      <p class="govuk-body">In addition, interoperability is needed to ensure systems can be joined up and enable the smooth and secure flow of information.
+        It also means local authorities can integrate their systems with applications from a range of suppliers to best meet their needs.</p>
+      <p class="govuk-body">Applications, data and processes should work together to make the right information available to the right user at the right time.</p>
     </div>
   </div>
 
@@ -430,12 +466,17 @@
     <div class="govuk-accordion__section-header">
       <h2 class="govuk-accordion__section-heading">
         <span class="govuk-accordion__section-button" id="accordion-default-heading-14">
-          Public Sector Equality Duty (PSED)
+          Benefits of interoperability
         </span>
       </h2>
     </div>
     <div id="accordion-default-content-14" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-14">
-      <p class="govuk-body">Local authorities must have 'due regard' to the <a href="http://www.legislation.gov.uk/ukpga/2010/15/section/149" class="govuk-link">PSED</a>.</p>
+      <p class="govuk-body">Interoperability supports:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the sharing of information between different systems to allow communication across local authorities and other organisations</li>
+        <li>quick, appropriate and safe sharing of child and family data</li>
+        <li>the integration of third-party applications</li>
+      </ul>
     </div>
   </div>
 
@@ -443,12 +484,18 @@
     <div class="govuk-accordion__section-header">
       <h2 class="govuk-accordion__section-heading">
         <span class="govuk-accordion__section-button" id="accordion-default-heading-15">
-          Public Sector Equality Duty (PSED)
+          Using open application programming interfaces (APIs)
         </span>
       </h2>
     </div>
     <div id="accordion-default-content-15" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-15">
-      <p class="govuk-body">Local authorities must have 'due regard' to the <a href="http://www.legislation.gov.uk/ukpga/2010/15/section/149" class="govuk-link">PSED</a>.</p>
+      <p class="govuk-body">Using open APIs is one way of sharing information. It allows 2 applications to communicate with each another to access data and means organisations can integrate systems.</p>
+      <p class="govuk-body">Sharing data between different systems, with appropriate controls in place, makes it easier for the multi-agency partnerships to work together to keep children safe, and for services
+        to operate in a joined-up way to provide care and support for children families. It also allows for add-on products and services to be purchased and integrated with third-party supplier products.</p>
+        <p class="govuk-body">APIs often allow this to be done quicker and cheaper than other methods. However, you should clearly communicate your use cases to potential suppliers or your in-house development team.
+          Seek their support to identify the best options for your needs.</p>
+        <p class="govuk-body">Read the guidance on <a href="https://www.gov.uk/government/collections/open-standards-for-government-data-and-technology#recommended-open-standards" class="govuk-link">Open standards for government data and technology</a>.
+          and <a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/describing-restful-apis-with-openapi-3" class="govuk-link">Describing RESTful APIs with OpenAPI 3</a>.</p>
     </div>
   </div>
 
@@ -456,12 +503,30 @@
     <div class="govuk-accordion__section-header">
       <h2 class="govuk-accordion__section-heading">
         <span class="govuk-accordion__section-button" id="accordion-default-heading-16">
-          Public Sector Equality Duty (PSED)
+          Data requirements
         </span>
       </h2>
     </div>
     <div id="accordion-default-content-16" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-16">
-      <p class="govuk-body">Local authorities must have 'due regard' to the <a href="http://www.legislation.gov.uk/ukpga/2010/15/section/149" class="govuk-link">PSED</a>.</p>
+      <p class="govuk-body">Data should be used to inform decision-making at all levels, from frontline workers to strategic planners, and across the education,
+        health and care partnership. You should make sure suppliers also show the efficiency of their system. For this purpose, they should demonstrate:</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>that education, health and care expertise has been involved in the design, configuration, testing and sign-off of the product</li>
+          <li>the functions available in the system</li>
+          <li>that there is a plan to ensure the system remains up to date</li>
+          <li>how they will manage large data migration and annual cohort changes</li>
+          <li>how they will minimise data entry for users and risks of data entry errors</li>
+          <li>how they will monitor the system to identify issues and gather feedback</li>
+          <li>how they will risk assess and prioritise improvements to ensure the system continues to meet user needs throughout the contract</li>
+          <li>how the system ensures data security and adheres to data protection regulations</li>
+        </ul>
+        <p class="govuk-body">Local authorities should involve children, young people and families directly in the design and configuration of any part of the system
+          or its outputs that they will interact with (for example application forms or plan e).</p>
+          <p class="govuk-body">You can support this by designing and configuring systems collaboratively with users.</p>
+          <p class="govuk-body">Ahead of procurement speak with other local authorities, and ideally see evidence from live systems and examples of ways of working from suppliers. When procuring,
+            use evaluation and selection processes which are designed and funded to properly involve children and young people.</p>
+          <p class="govuk-body">You should consider how you'll measure the performance of the system and manage necessary updates through the life of the contract with the supplier.
+            Guidance is available on <a href="https://www.gov.uk/government/publications/commercial-capability-contract-management-standards" class="govuk-link">Contract management standards</a>.</p>
     </div>
   </div>
 
@@ -469,12 +534,46 @@
     <div class="govuk-accordion__section-header">
       <h2 class="govuk-accordion__section-heading">
         <span class="govuk-accordion__section-button" id="accordion-default-heading-17">
-          Public Sector Equality Duty (PSED)
+          Using data
         </span>
       </h2>
     </div>
     <div id="accordion-default-content-17" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-17">
-      <p class="govuk-body">Local authorities must have 'due regard' to the <a href="http://www.legislation.gov.uk/ukpga/2010/15/section/149" class="govuk-link">PSED</a>.</p>
+      <p class="govuk-body">Systems should collect data that:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>meets statutory guidance, in terms of collecting, sharing and reporting</li>
+        <li>monitors performance</li>
+        <li>is accessible to users</li>
+        <li>helps professionals to develop the plans for children and young people</li>
+        <li>supports service planning and improvement</li>
+      </ul>
+      <p class="govuk-body">Local authorities need to understand and rationalise the data that they collect, be able to explain why they collect it and review what they collect on a regular basis.
+        You should be aware of data requirements and limitations of your systems before identifying new systems, upgrades or developments.</p>
+      <p class="govuk-body">When procuring or developing a system, you should:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>map out in detail any preparatory work that needs to be conducted to migrate data</li>
+        <li>test migration and understand what will be available from day one</li>
+        <li>test reports and reporting tools meet user needs and make sure any training is completed</li>
+        <li>identify how training will be delivered and managed</li>
+        <li>understand how you can access and migrate data from the system</li>
+      </ul>
+      <p class="govuk-body">Make sure that suppliers and developers demonstrate:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>how the system provides appropriate controlled access to the data and the ability to generate reports</li>
+        <li>how it runs reports directly from the system</li>
+        <li>how it connects to a data warehouse and can be used with other products, such as data mapping and visualisation tools</li>
+        <li>that the reporting tool is not process intensive</li>
+        <li>how changes in data requirements could be managed through the life of the contract</li>
+        <li>how much autonomy you will have with the system</li>
+        <li>how the systems supports accurate recording and auditing</li>
+        <li>how the systems supports the timely delivery of data</li>
+      </ul>
+      <p class="govuk-body">Information should be made available for decision-making as close to real-time as possible.</p>
+      <p class="govuk-body">You may find the following guidance helpful:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="https://www.gov.uk/guidance/make-better-use-of-data" class="govuk-link">Make better use of data</a>.</li>
+        <li><a href="https://www.gov.uk/guidance/choose-tools-and-infrastructure-to-make-better-use-of-your-data" class="govuk-link">Choosing tools and infrastructure to make better use of your data</a>.</li>
+      </ul>
     </div>
   </div>
 
@@ -482,12 +581,36 @@
     <div class="govuk-accordion__section-header">
       <h2 class="govuk-accordion__section-heading">
         <span class="govuk-accordion__section-button" id="accordion-default-heading-18">
-          Public Sector Equality Duty (PSED)
+          Data protection
         </span>
       </h2>
     </div>
     <div id="accordion-default-content-18" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-18">
-      <p class="govuk-body">Local authorities must have 'due regard' to the <a href="http://www.legislation.gov.uk/ukpga/2010/15/section/149" class="govuk-link">PSED</a>.</p>
+      <p class="govuk-body">Digital systems should enable data to be recorded in a way that helps decision-making,
+        planning and oversight at all levels of the system, without data collection getting in the way of frontline delivery.</p>
+      <p class="govuk-body">The amount of data and how it is collected needs to be considered from both the perspective of
+          those inputting the data and those who need to work with it.</p>
+      <p class="govuk-body">You should make sure systems are designed and configured in a way that makes it easy for those doing the recording,
+        cutting out duplication or wasted effort due to inefficient processes. They also need to allow for data for analysis - for example, related information
+        is stored together and organised in a way that supports frontline staff, service managers and strategic planners.</p>
+      <p class="govuk-body">You should know how:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the system meets the required standards and complies with <a href="https://www.legislation.gov.uk/uksi/2019/419/made" class="govuk-link">UK General Data Protection Regulation (GDPR) and Data Protection Act 2018</a>.</li>
+        <li>data can be accessed and shared across organisations as needed </li>
+        <li>to manage permissions and access to the system</li>
+        <li>the system manages alerts when access is attempted without permission</li>
+        <li>the supplier assesses and protects the system from cyber attacks</li>
+      </ul>
+      <p class="govuk-body">Local authorities should:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>identify security and privacy risks and threats to the service</li>
+        <li>have a plan and budget to manage security and ensure that these have visibility and oversight at the highest level</li>
+        <li>collect and process personal information in a way that’s secure</li>
+        <li>work with business and information risk teams, for example, senior information risk owners, to make sure the service meets security requirements without putting delivery at risk</li>
+        <li>make sure appropriate vulnerability and penetration testing is conducted</li>
+      </ul>
+      <p class="govuk-body">Local authorities must make sure systems meet data protection regulation standards. Guidance is available from the
+        <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/" class="govuk-link">Information Commissioner's Office (ICO)</a>.</p>
     </div>
   </div>
 
@@ -495,17 +618,27 @@
     <div class="govuk-accordion__section-header">
       <h2 class="govuk-accordion__section-heading">
         <span class="govuk-accordion__section-button" id="accordion-default-heading-19">
-          Public Sector Equality Duty (PSED)
+          Measuring the performance of the system
         </span>
       </h2>
     </div>
     <div id="accordion-default-content-19" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-19">
-      <p class="govuk-body">Local authorities must have 'due regard' to the <a href="http://www.legislation.gov.uk/ukpga/2010/15/section/149" class="govuk-link">PSED</a>.</p>
+      <p class="govuk-body">Suppliers and developers should work with you to set out the measures that will be used to assess outcomes
+        and set key performance indicators (KPIs).</p>
+      <p class="govuk-body">Performance data should be available to monitor and improve the system.
+        This information should be assessed against the KPIs to inform continuous improvement of the system.</p>
+      <p class="govuk-body">Ideally, systems should have mechanism that allows users to raise issues and give
+        feedback loops in the system at the point they encounter an issue.</p>
+      <p class="govuk-body">There is guidance available in the service manual:
+        <a href="https://www.gov.uk/service-manual/service-standard/point-10-define-success-publish-performance-data" class="govuk-link">Point 10: Define what success looks like</a>.</p>
     </div>
   </div>
 
 </div>
 
+<p class="govuk-body">
+  Please give us feedback on this guidance by <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yXfS-grGoU2187O4s0qC-T97oglKFvVKgdQrXP2QCAZUN1Y5WlE4NFA4NlhMM0dYQVFLMzJCWUtYMi4u&wdLOR=c52AC8206-63EA-4114-A9F8-89A0F5554F04" class="govuk-link">completing this survey</a>.
+</p>
 
 </div>
 </div>
