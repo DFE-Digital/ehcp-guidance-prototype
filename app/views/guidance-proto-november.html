@@ -1,10 +1,242 @@
 {% extends "layouts/main.html" %}
+{% from "govuk/components/accordion/macro.njk" import govukAccordion %}
 
 {% block pageTitle %}
   GOV.UK page template – {{ serviceName }} – GOV.UK Prototype Kit
 {% endblock %}
 
 {% block content %}
+
+<div>
+<header
+  class="govuk-grid-row manuals-header"
+</header>
+</div>
+
+<div class="govuk-width-container">
+  <!-- <main class="govuk-main-wrapper"> -->
+    <div class="govuk-breadcrumbs">
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="#">Home</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="#">Breadcrumb name to go here</a>
+        </li>
+      </ol>
+    </div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+
+        <h1 class="govuk-heading-xl">Guidance : Improving  EHCP digital systems</h1>
+        <p class="govuk-body-s">From: Department for Education</p>
+        <p class="govuk-body-s">Published: 29 November 2023</p>
+        <p class="govuk-body-s">Updated: 1 December 2023</p>
+
+        <h2 class="govuk-heading-m">Introduction</h2>
+        <p class="govuk-body">This guidance is to help local authorities improve their use of digital systems to
+          improve their management of education, health and care plan (EHCP) processes.</p>
+        <p class="govuk-body">Use the guidance to help you consider how systems: </p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>support the recording, tracking and analysis of education, health and care plans</li>
+            <li>are procured, set up and managed</li>
+            <li>interact with other systems to share information and link services together</li>
+            <li>can be monitored and measured to identify opportunities for improvement of the system, professional practices or the service</li>
+          </ul>
+          <p class="govuk-body">Systems need to meet a number of complex needs that may conflict, such as: </p>
+            <ul class="govuk-list govuk-list--bullet">
+              <li>the needs of the people who use the system (based on research with them)</li>
+              <li>meeting data capture and reporting needs</li>
+              <li>delivering efficiency, quality and value for money</li>
+              <li>monitoring the service and performance reporting</li>
+              <li>meeting legal duties to report and share information</li>
+            </ul>
+
+            <p class="govuk-body">They also need to be delivered within budget and resource planning limits
+              and be flexible in response to changing needs and requirements.</p>
+            <p class="govuk-body">Whilst digital technology and the use of systems can create efficiencies and better oversight,
+              they can only work well when developed and embedded into your ways of working.</p>
+            <p class="govuk-body">Consider taking external specialist advice to help you at the different stages of procurement and development
+              to make sure you have the knowledge and support you need.
+              You should also manage your system over time, and do regular health checks to make sure it continues to work in an optimal way.</p>
+
+<div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+  <div class="govuk-accordion__section">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+          Delivering your vision
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-1" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-1">
+      <p class="govuk-body">Systems, whether purchased or developed in-house, should be designed, configured, implemented and managed based on the
+        needs of your individual EHCP processes, your partners and your users. </p>
+        <p class="govuk-body">Systems need to meet a number of complex needs that may conflict, such as: </p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>the needs of the people who use the system (based on research with them)</li>
+            <li>meeting data capture and reporting needs</li>
+            <li>delivering efficiency, quality and value for money</li>
+            <li>monitoring the service and performance reporting</li>
+            <li>meeting legal duties to report and share information</li>
+          </ul>
+      <p class="govuk-body">To make the best use of digital systems and technology, you should:</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>identify the service’s vision and goals</li>
+          <li>assess how existing systems use data and how you want to use it in future</li>
+          <li>understand how users interact with existing systems</li>
+          <li>identify barriers and ways digital services can better meet people’s needs</li>
+          <li>identify problems and needs</li>
+          <li>map desired outcomes to your vision and goals</li>
+          <li>make sure people are engaged and understand the vision and goals</li>
+        </ul>
+        <p class="govuk-body">Guidance is available on <a href="https://www.digitalbuyingguide.org/en/guide/"
+          class="govuk-link">Commissioning digital products or services</a>
+          and you can sign up to the <a href="https://www.localdigital.gov.uk/declaration/"
+            class="govuk-link">Local Digital Declaration</a>.
+        </p>
+        <p class="govuk-body">Before seeking solution, you need to have an understanding of:</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>how your EHCP processes and systems have developed over time</li>
+          <li>your existing infrastructure</li>
+          <li>what you want your service to achieve</li>
+        </ul>
+        <p class="govuk-body">It is important that IT teams and those who understand the local authority's ambitions for the EHCP service work together
+          to plan digital systems that enable the service vision. Having conversations about visions and goals with potential suppliers ahead of any
+          procurement exercise will help you to understand what options may be on offer.</p>
+        <p class="govuk-body">Read the guidance on <a href="https://www.gov.uk/service-manual/agile-delivery/developing-a-roadmap"
+          class="govuk-link">developing a roadmap</a>.
+        </p>
+    </div>
+
+  </div>
+  <div class="govuk-accordion__section">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-2">
+          Assessing needs and requirements
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-2" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-2">
+      <p class="govuk-body">This is the content for Assessing needs and requirements.</p>
+    </div>
+  </div>
+
+  <div class="govuk-accordion__section">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-3">
+          Understanding user needs
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-3" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-3">
+      <p class="govuk-body">A user is anyone who uses the system directly or uses information from the system.</p>
+      <p class="govuk-body">You should consider how your system will help frontline users meet the needs of children, young people and families.
+        Take account of users’ individual needs such as different locations, digital skills and accessibility requirements.</p>
+        <p class="govuk-body">Think about who your users are and speak to them to understand what they need from the system. Your users might include:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      <li>social workers</li>
+      <li>service delivery managers</li>
+      <li>data analysts</li>
+      <li>children and young people</li>
+      <li>families and carers</li>
+      <li>health, education and business partners</li>
+      <li>multiauthority or multi-agency partnerships</li>
+    </ul>
+    <p class="govuk-body">Consider how systems will complement:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      <li>the experience of professionals, children, young people and families</li>
+      <li>the skills and abilities of the different users of the system</li>
+      <li>communication and information sharing with service users</li>
+      <li>how the outputs will be used, for example, reporting to the Department for Education (DfE) or preparing for an Ofsted inspection</li>
+      <li>interaction with other systems, such as social care, health and education systems</li>
+      <li>the ability to make improvements to EHCP services by using data from the system to spot trends, gaps and make predictions</li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="govuk-accordion__section">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-4">
+          Do user research
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-4" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-4">
+      <p class="govuk-body">EHCP systems should be developed in response to the changing needs of users and service developments.
+        You should regularly work with developers and suppliers to assess the design, configuration and performance of systems against user needs,
+        and ensure the assessments inform future versions.</p>
+      <p class="govuk-body">You should also aim to understand what might stop users from making the most of a system, such as training or time
+          to change their ways of working, ahead of launching new services or features.</p>
+      <p class="govuk-body">You can learn about the problems users face by:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>using data analytics and other available data to identify where there may be a problem</li>
+        <li>using methods such as surveys, group workshops and feedback loops to support your understanding</li>
+        <li>using test environments to assess hypotheses and functionality in ‘live’ practice</li>
+        <li>engaging with suppliers, for example, through their reference groups or workshops</li>
+      </ul>
+      <p class="govuk-body">Consider how you'll gather insights and feedback from users to make sure any new needs are identified and met.</p>
+      <p class="govuk-body">Read the <a href="https://www.gov.uk/service-manual" class="govuk-link">service manual</a>
+        which contains guidance on <a href="https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs"
+        class="govuk-link">learning about users and their needs</a> and
+        <a href="https://www.gov.uk/service-manual/user-research/user-research-in-discovery"
+        class="govuk-link">conducting user research in the discovery phase</a>.
+      </p>
+    </div>
+  </div>
+  <div class="govuk-accordion__section">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-5">
+          Assessing user needs
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-5" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-5">
+      <p class="govuk-body">When reviewing the need for a new system, upgrade or development you should consider the needs of different users within the service,
+        local authority and wider community. You should make sure you have clearly identified all those who use the system or its outputs.</p>
+      <p class="govuk-body">Suppliers and developers should demonstrate how:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the design, local configuration and implementation will be tested and iterated to ensure it continues to meet user needs</li>
+        <li>input from professionals, families, young people and other service users has been used to design and configure the system</li>
+        <li>user needs have been balanced with the business and technical needs of the system</li>
+        <li>the system provides easy access to information</li>
+        <li>it supports users to accurately capture quality data</li>
+        <li>the system or development will support the service’s vision and goals and be focused on specific outcomes</li>
+        <li>accessibility, permissions and restrictions for people using the system, both within the local authority as well as external partners</li>
+      </ul>
+      <p class="govuk-body">You should work with suppliers to test and iterate systems, updates and developments, ahead of implementation.
+        This will help to ensure that the design and configuration can be improved over time based on user feedback.
+        Make sure there's time in your project plan to do this.</p>
+        <p class="govuk-body">It is useful to frame user needs as problems to be solved and the desired outcomes. Then do a separate exercise
+          to map how potential options could resolve the problems to achieve those outcomes. Engage suppliers and developers to work together
+          to assess the problems and any solution based desired outcomes.</p>
+    </div>
+  </div>
+
+  <div class="govuk-accordion__section">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-4">
+          Accessibility
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-6" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-6">
+      <p class="govuk-body">This is the content for How people read.</p>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+<!-- </main> -->
+</div>
 
 
 
