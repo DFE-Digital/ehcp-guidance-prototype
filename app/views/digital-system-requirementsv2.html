@@ -1,0 +1,260 @@
+{% extends "layouts/main.html" %} {% block pageTitle %} GOV.UK page template – {{ serviceName }} –
+GOV.UK Prototype Kit {% endblock %} {% block content %}
+
+<style>
+  .govuk-main-wrapper {
+    padding-top: 0px;
+  }
+
+  input[type='text']:focus {
+    border: 5px solid #ffdd00;
+    padding-inline: 0px;
+    padding-block: 0px;
+  }
+
+  .govuk-tag.govuk-phase-banner__content__tag {
+    padding-bottom: 8px;
+    padding-top: 9px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 20px;
+  }
+</style>
+
+<div>
+  <header class="govuk-grid-row manuals-header"></header>
+</div>
+
+<div class="govuk-width-container">
+  <!-- <main class="govuk-main-wrapper"> -->
+
+  <div class="govuk-phase-banner">
+    <p class="govuk-phase-banner__content">
+      <strong class="govuk-tag govuk-phase-banner__content__tag">
+        Draft
+      </strong>
+      <span style="font-size: 20px;" class="govuk-phase-banner__text">
+       This prototype is for user research with local authorities to test ideas and prompt discussions.
+      </span>
+    </p>
+  </div>
+
+  <div class="govuk-breadcrumbs">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="manual-proto-november">Home</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="manual-proto-november"
+          >Digitising education, health and care plans</a
+        >
+      </li>
+      <!-- <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="data-standards">Data standards</a>
+      </li> -->
+    </ol>
+  </div>
+
+  <div class="govuk-width-container">
+    <div style="background-color: #1d70b8; padding: 30px; border: 0px; margin-bottom: 20px">
+      <div class="govuk-grid-column-two-thirds">
+        <h1 style="color: white; margin-bottom: 50px" class="govuk-heading-l">
+          Digitising education, health and care plans
+        </h1>
+        <p style="color: white; margin-bottom: 5px; margin-top: 20px" class="govuk-body-s">
+          From:
+          <a
+            style="color: white; font-weight: bold"
+            href="https://www.gov.uk/government/organisations/department-for-education"
+            class="govuk-link"
+            >Department for Education</a
+          >.
+        </p>
+        <!-- <p style="color: white; margin-bottom: 5px" class="govuk-body-s">
+          Published: 29 November 2023
+        </p>
+        <p style="color: white; margin-bottom: 30px" class="govuk-body-s">
+          Updated: 30 November 2023
+        </p> -->
+      </div>
+
+      <div>
+        <input
+          class="govuk-body-m"
+          style="
+            width: 500px;
+            height: 40px;
+            margin-left: 15px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+          "
+          type="text"
+          placeholder="    Search this manual"
+        />
+        <svg
+          style="margin-bottom: -15px; margin-left: -5px; background-color: black"
+          class="gem-c-search__icon"
+          width="44"
+          height="44"
+          viewBox="0 0 27 27"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <circle
+            style="color: white"
+            cx="12"
+            cy="11"
+            r="8"
+            stroke="currentColor"
+            stroke-width="3"
+          ></circle>
+          <line
+            style="color: white"
+            x1="17"
+            y1="17"
+            x2="26"
+            y2="25"
+            stroke="currentColor"
+            stroke-width="3"
+          ></line>
+        </svg>
+      </div>
+    </div>
+
+    <div style="border-bottom: 1px solid #b1b4b6; padding-bottom: 5px" class="govuk-breadcrumbs">
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="manual-proto-november">Contents</a>
+        </li>
+      </ol>
+    </div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h2 style="margin-top: 20px" class="govuk-heading-m">Digital system requirements</h2>
+        <p class="govuk-body">
+          These requirements are for local authorities updating or implementing a digital EHCP system.
+        </p>
+
+        <div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+          <div class="govuk-accordion__section">
+            <div class="govuk-accordion__section-header">
+              <h2 class="govuk-accordion__section-heading">
+                <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+                  Access and preservation
+                </span>
+              </h2>
+            </div>
+            <div
+              id="accordion-default-content-1"
+              class="govuk-accordion__section-content"
+              aria-labelledby="accordion-default-heading-1"
+            >
+              <p class="govuk-body">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta. Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex pretium, id pellentesque libero hendrerit. Aenean blandit nunc at odio venenatis, vel dictum elit suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec tortor neque, scelerisque vel dui a, tristique pellentesque eros. Nam vel hendrerit urna. Cras tincidunt nulla nec enim cursus, ut ultricies augue condimentum. In id mauris pellentesque, tempus dui sed, lacinia lectus. Integer semper lectus ligula, id ornare justo gravida non. Morbi porta, mauris eu mollis dictum, arcu ipsum laoreet nisl, eget elementum urna elit eu est.
+              </p>
+            </div>
+          </div>
+
+          <div class="govuk-accordion__section">
+            <div class="govuk-accordion__section-header">
+              <h2 class="govuk-accordion__section-heading">
+                <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+                  Infrastructure and technology
+                </span>
+              </h2>
+            </div>
+            <div
+              id="accordion-default-content-1"
+              class="govuk-accordion__section-content"
+              aria-labelledby="accordion-default-heading-1"
+            >
+              <p class="govuk-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta. Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex pretium, id pellentesque libero hendrerit. Aenean blandit nunc at odio venenatis, vel dictum elit suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec tortor neque, scelerisque vel dui a, tristique pellentesque eros. Nam vel hendrerit urna. Cras tincidunt nulla nec enim cursus, ut ultricies augue condimentum. In id mauris pellentesque, tempus dui sed, lacinia lectus. Integer semper lectus ligula, id ornare justo gravida non. Morbi porta, mauris eu mollis dictum, arcu ipsum laoreet nisl, eget elementum urna elit eu est.
+              </p>
+            </div>
+          </div>
+
+          <div class="govuk-accordion__section">
+            <div class="govuk-accordion__section-header">
+              <h2 class="govuk-accordion__section-heading">
+                <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+                  Quality control
+                </span>
+              </h2>
+            </div>
+            <div
+              id="accordion-default-content-1"
+              class="govuk-accordion__section-content"
+              aria-labelledby="accordion-default-heading-1"
+            >
+              <p class="govuk-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta. Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex pretium, id pellentesque libero hendrerit. Aenean blandit nunc at odio venenatis, vel dictum elit suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec tortor neque, scelerisque vel dui a, tristique pellentesque eros. Nam vel hendrerit urna. Cras tincidunt nulla nec enim cursus, ut ultricies augue condimentum. In id mauris pellentesque, tempus dui sed, lacinia lectus. Integer semper lectus ligula, id ornare justo gravida non. Morbi porta, mauris eu mollis dictum, arcu ipsum laoreet nisl, eget elementum urna elit eu est.
+              </p>
+            </div>
+          </div>
+
+          <div class="govuk-accordion__section">
+            <div class="govuk-accordion__section-header">
+              <h2 class="govuk-accordion__section-heading">
+                <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+                  Standards and best practice
+                </span>
+              </h2>
+            </div>
+            <div
+              id="accordion-default-content-1"
+              class="govuk-accordion__section-content"
+              aria-labelledby="accordion-default-heading-1"
+            >
+              <p class="govuk-body">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta. Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex pretium, id pellentesque libero hendrerit. Aenean blandit nunc at odio venenatis, vel dictum elit suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec tortor neque, scelerisque vel dui a, tristique pellentesque eros. Nam vel hendrerit urna. Cras tincidunt nulla nec enim cursus, ut ultricies augue condimentum. In id mauris pellentesque, tempus dui sed, lacinia lectus. Integer semper lectus ligula, id ornare justo gravida non. Morbi porta, mauris eu mollis dictum, arcu ipsum laoreet nisl, eget elementum urna elit eu est.
+              </p>
+            </div>
+          </div>
+
+          <div class="govuk-accordion__section">
+            <div class="govuk-accordion__section-header">
+              <h2 class="govuk-accordion__section-heading">
+                <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+                  User engagement and iterative improvement
+                </span>
+              </h2>
+            </div>
+            <div
+              id="accordion-default-content-1"
+              class="govuk-accordion__section-content"
+              aria-labelledby="accordion-default-heading-1"
+            >
+              <p class="govuk-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta. Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex pretium, id pellentesque libero hendrerit. Aenean blandit nunc at odio venenatis, vel dictum elit suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec tortor neque, scelerisque vel dui a, tristique pellentesque eros. Nam vel hendrerit urna. Cras tincidunt nulla nec enim cursus, ut ultricies augue condimentum. In id mauris pellentesque, tempus dui sed, lacinia lectus. Integer semper lectus ligula, id ornare justo gravida non. Morbi porta, mauris eu mollis dictum, arcu ipsum laoreet nisl, eget elementum urna elit eu est.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end of all accordions -->
+
+        <!-- <p class="govuk-body">
+        Please give us feedback on this guidance by <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yXfS-grGoU2187O4s0qC-T97oglKFvVKgdQrXP2QCAZUN1Y5WlE4NFA4NlhMM0dYQVFLMzJCWUtYMi4u&wdLOR=c52AC8206-63EA-4114-A9F8-89A0F5554F04" class="govuk-link">completing this survey</a>.
+      </p> -->
+      </div>
+
+      <!-- sidebar -->
+      <!-- <div class="govuk-grid-column-one-third">
+    <div style="border-bottom: 2px solid #1d70b8; padding-bottom: 5px;" class="govuk-breadcrumbs">
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+        </li>
+      </ol>
+
+      <h3 class="govuk-heading-s">Related content</h3>
+      <p class="govuk-body"> <a href="#" class="govuk-link">Support service</a></p>
+    </div> -->
+    </div>
+    <!-- </main> -->
+  </div>
+
+  {% endblock %}
+</div>
