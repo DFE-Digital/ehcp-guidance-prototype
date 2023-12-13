@@ -8,7 +8,7 @@ Clone the repository then run `npm i` to install the project dependencies.
 
 ## Running Locally
 
-Run `npm start` to start a web server on port 3000.
+Run `npm run dev` to start a web server on port 3000.
 Use Ctrl+C to stop the server.
 
 ## Deployment

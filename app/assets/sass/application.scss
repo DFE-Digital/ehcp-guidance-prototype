@@ -1,6 +1,31 @@
 //
 // For guidance on how to add CSS and SCSS see:
 // https://prototype-kit.service.gov.uk/docs/adding-css-javascript-and-images
-// 
+//
 
 // Add extra styles here
+.govuk-main-wrapper {
+  padding-top: 0;
+}
+
+input[type='text'] {
+  border: 5px solid transparent;
+  padding-block: 0;
+  padding-left: 1rem;
+  margin-right: 1px;
+}
+input[type='text']:focus {
+  border-color: #ffdd00;
+  padding-block: 0;
+}
+
+.govuk-tag.govuk-phase-banner__content__tag {
+  padding-bottom: 8px;
+  padding-top: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  font-size: 20px;
+
+  background-color: #ffdd00;
+  color: #0b0c0c;
+}
