@@ -1,28 +1,6 @@
 {% extends "layouts/main.html" %} {% block pageTitle %} GOV.UK page template – {{ serviceName }} –
 GOV.UK Prototype Kit {% endblock %} {% block content %}
 
-<style>
-  .govuk-main-wrapper {
-    padding-top: 0px;
-  }
-
-  input[type='text']:focus {
-    border: 5px solid #ffdd00;
-    padding-inline: 0px;
-    padding-block: 0px;
-  }
-
-  .govuk-tag.govuk-phase-banner__content__tag {
-    padding-bottom: 8px;
-    padding-top: 9px;
-    padding-left: 11px;
-    padding-right: 11px;
-    font-size: 20px;
-    background-color: #ffdd00;
-    color: #0b0c0c;
-  }
-</style>
-
 <div>
   <header class="govuk-grid-row manuals-header"></header>
 </div>
@@ -32,11 +10,10 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
 
   <div class="govuk-phase-banner">
     <p class="govuk-phase-banner__content">
-      <strong class="govuk-tag govuk-phase-banner__content__tag">
-        Test
-      </strong>
-      <span style="font-size: 20px;" class="govuk-phase-banner__text">
-       This prototype is for user research with local authorities to test ideas and prompt discussions.
+      <strong class="govuk-tag govuk-phase-banner__content__tag"> Test </strong>
+      <span style="font-size: 20px" class="govuk-phase-banner__text">
+        This prototype is for user research with local authorities to test ideas and prompt
+        discussions.
       </span>
     </p>
   </div>
@@ -58,16 +35,19 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
   </div>
 
   <div class="govuk-width-container">
-    <div style="background-color: #1d70b8; padding: 30px; border: 0px; margin-bottom: 20px">
+    <div style="background-color: #1d70b8; padding: 30px; border: 0; margin-bottom: 20px">
       <div class="govuk-grid-column-two-thirds">
-        <h1 style="color: white; margin-bottom: 50px" class="govuk-heading-l">Digitising education, health and care plans</h1>
+        <h1 style="color: white; margin-bottom: 50px" class="govuk-heading-l">
+          Digitising education, health and care plans
+        </h1>
         <p style="color: white; margin-bottom: 5px; margin-top: 20px" class="govuk-body-s">
           From:
           <a
             style="color: white; font-weight: bold"
             href="https://www.gov.uk/government/organisations/department-for-education"
             class="govuk-link"
-            >Department for Education</a>.
+            >Department for Education</a
+          >.
         </p>
 
         <!-- <p style="color: white; margin-bottom: 5px" class="govuk-body-s">
@@ -80,7 +60,6 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
           Updated: 30 November 2023
 
         </p> -->
-
       </div>
 
       <div>
@@ -94,8 +73,7 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
             margin-bottom: 30px;
           "
           type="text"
-          placeholder="    Search this manual"
-        />
+          placeholder="    Search this manual" />
         <svg
           style="margin-bottom: -15px; margin-left: -5px; background-color: black"
           class="gem-c-search__icon"
@@ -105,16 +83,14 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true"
-          focusable="false"
-        >
+          focusable="false">
           <circle
             style="color: white"
             cx="12"
             cy="11"
             r="8"
             stroke="currentColor"
-            stroke-width="3"
-          ></circle>
+            stroke-width="3"></circle>
           <line
             style="color: white"
             x1="17"
@@ -122,8 +98,7 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
             x2="26"
             y2="25"
             stroke="currentColor"
-            stroke-width="3"
-          ></line>
+            stroke-width="3"></line>
         </svg>
       </div>
     </div>
@@ -155,10 +130,12 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
             <div
               id="accordion-default-content-1"
               class="govuk-accordion__section-content"
-              aria-labelledby="accordion-default-heading-1"
-            >
+              aria-labelledby="accordion-default-heading-1">
               <p class="govuk-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta. Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex pretium, id pellentesque libero hendrerit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta.
+                Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus
+                sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex
+                pretium, id pellentesque libero hendrerit.
               </p>
             </div>
           </div>
@@ -174,10 +151,12 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
             <div
               id="accordion-default-content-1"
               class="govuk-accordion__section-content"
-              aria-labelledby="accordion-default-heading-1"
-            >
+              aria-labelledby="accordion-default-heading-1">
               <p class="govuk-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta. Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex pretium, id pellentesque libero hendrerit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta.
+                Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus
+                sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex
+                pretium, id pellentesque libero hendrerit.
               </p>
             </div>
           </div>
@@ -193,10 +172,12 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
             <div
               id="accordion-default-content-1"
               class="govuk-accordion__section-content"
-              aria-labelledby="accordion-default-heading-1"
-            >
+              aria-labelledby="accordion-default-heading-1">
               <p class="govuk-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta. Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex pretium, id pellentesque libero hendrerit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta.
+                Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus
+                sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex
+                pretium, id pellentesque libero hendrerit.
               </p>
             </div>
           </div>
@@ -212,10 +193,12 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
             <div
               id="accordion-default-content-1"
               class="govuk-accordion__section-content"
-              aria-labelledby="accordion-default-heading-1"
-            >
+              aria-labelledby="accordion-default-heading-1">
               <p class="govuk-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta. Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex pretium, id pellentesque libero hendrerit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue laoreet porta.
+                Duis sollicitudin pharetra elit, nec lacinia odio pharetra sed. Ut ultrices lectus
+                sit amet magna blandit, sit amet aliquet dolor blandit. Etiam interdum nisl quis ex
+                pretium, id pellentesque libero hendrerit.
               </p>
             </div>
           </div>
@@ -226,20 +209,7 @@ GOV.UK Prototype Kit {% endblock %} {% block content %}
         Please give us feedback on this guidance by <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yXfS-grGoU2187O4s0qC-T97oglKFvVKgdQrXP2QCAZUN1Y5WlE4NFA4NlhMM0dYQVFLMzJCWUtYMi4u&wdLOR=c52AC8206-63EA-4114-A9F8-89A0F5554F04" class="govuk-link">completing this survey</a>.
       </p> -->
       </div>
-
-      <!-- sidebar -->
-      <!-- <div class="govuk-grid-column-one-third">
-    <div style="border-bottom: 2px solid #1d70b8; padding-bottom: 5px;" class="govuk-breadcrumbs">
-      <ol class="govuk-breadcrumbs__list">
-        <li class="govuk-breadcrumbs__list-item">
-        </li>
-      </ol>
-
-      <h3 class="govuk-heading-s">Related content</h3>
-      <p class="govuk-body"> <a href="#" class="govuk-link">Support service</a></p>
-    </div> -->
     </div>
-    <!-- </main> -->
   </div>
 
   {% endblock %}
