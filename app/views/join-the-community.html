@@ -1,0 +1,115 @@
+{% extends "layouts/main.html" %} {% block pageTitle %} GOV.UK page template – {{ serviceName }} –
+GOV.UK Prototype Kit {% endblock %} {% block content %}
+
+<style>
+  .govuk-main-wrapper {
+    padding-top: 0px;
+  }
+
+  .govuk-tag.govuk-phase-banner__content__tag {
+    padding-bottom: 8px;
+    padding-top: 9px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 20px;
+  }
+</style>
+
+<div>
+  <header class="govuk-grid-row manuals-header"></header>
+</div>
+
+<div class="govuk-width-container">
+  <!-- <main class="govuk-main-wrapper"> -->
+
+  <div class="govuk-phase-banner">
+    <p class="govuk-phase-banner__content">
+      <strong class="govuk-tag govuk-phase-banner__content__tag">
+        Draft
+      </strong>
+      <span style="font-size: 20px;" class="govuk-phase-banner__text">
+       This prototype is for user research with local authorities to test ideas and prompt discussions.
+      </span>
+    </p>
+  </div>
+
+  <div class="govuk-breadcrumbs">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="manual-proto-december">Home</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="manual-proto-december"
+          >Digitising education, health and care plans</a
+        >
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="join-the-community">Join the community</a>
+      </li>
+    </ol>
+  </div>
+
+  <div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">Join the community</h1>
+    <p class="govuk-body-l">To join, simply fill out the form below and we’ll add you.
+  If you haven’t used Slack before, then this short video will get you started.</p>
+
+
+
+<div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6wjmH5qL3Ms?si=tw9DYO-YquF9_7A_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<br><br>
+
+<div class="govuk-form-group">
+  <label class="govuk-label" for="event-name">
+    What is your name?
+  </label>
+  <input style="border: 2px solid black; padding:5px;" class="govuk-input" id="event-name" name="eventName" type="text">
+</div>
+
+<div class="govuk-form-group">
+  <label class="govuk-label" for="event-name">
+    What is your job title?
+  </label>
+  <input style="border: 2px solid black; padding:5px;" class="govuk-input" id="event-name" name="eventName" type="text">
+</div>
+
+<div class="govuk-form-group">
+  <label class="govuk-label" for="event-name">
+    What is your email address?
+  </label>
+  <input style="border: 2px solid black; padding:5px;" class="govuk-input" id="event-name" name="eventName" type="text">
+</div>
+
+<div class="govuk-form-group">
+  <label class="govuk-label" for="event-name">
+    Which local authority do you represent?
+  </label>
+  <input style="border: 2px solid black; padding:5px;" class="govuk-input" id="event-name" name="eventName" type="text">
+</div>
+
+<button type="submit" class="govuk-button" data-module="govuk-button">
+  Submit
+</button>
+
+
+</div>
+</div>
+
+
+
+
+      <!-- <p class="govuk-body">
+        Please give us feedback on this guidance by <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yXfS-grGoU2187O4s0qC-T97oglKFvVKgdQrXP2QCAZUN1Y5WlE4NFA4NlhMM0dYQVFLMzJCWUtYMi4u&wdLOR=c52AC8206-63EA-4114-A9F8-89A0F5554F04" class="govuk-link">completing this survey</a>.
+      </p> -->
+
+
+    </div>
+    <!-- </main> -->
+  </div>
+
+  {% endblock %}
+</div>
