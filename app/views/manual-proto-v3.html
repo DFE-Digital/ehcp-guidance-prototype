@@ -1,0 +1,98 @@
+{% extends "layouts/main.html" %} {% block pageTitle %} GOV.UK page template – {{ serviceName }} –
+GOV.UK Prototype Kit {% endblock %} {% block content %}
+
+<div>
+  <header class="govuk-grid-row manuals-header"></header>
+</div>
+
+<div class="govuk-phase-banner">
+  <p id="test-banner" class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">Test</strong>
+    <span class="govuk-phase-banner__text">
+      This prototype is for user research with local authorities to test ideas and prompt
+      discussions.
+    </span>
+  </p>
+</div>
+
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="manual-proto-december">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="manual-proto-december"
+        >Digitising education, health and care plans</a
+      >
+    </li>
+  </ol>
+</div>
+
+<div id="blue-information-box" class="govuk-width-container">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 id="blue-information-title" class="govuk-heading-l">
+        Data standard and digital requirements for education, health and care (EHC) plans
+      </h1>
+      <p id="blue-information-url-text">
+        From:
+        <a id="blue-information-url
+          href="https://www.gov.uk/government/organisations/department-for-education"
+          class="govuk-link"
+          >Department for Education</a
+        >.
+      </p>
+    </div>
+
+    <div>
+      <input id="search-bar"
+        class="govuk-body-m"
+        type="text"
+        placeholder="Search this manual" />
+      <svg id="search-bar-icon"
+        class="gem-c-search__icon"
+        width="44"
+        height="44"
+        viewBox="0 0 27 27"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+        focusable="false">
+        <circle
+          style="color: white"
+          cx="12"
+          cy="11"
+          r="8"
+          stroke="currentColor"
+          stroke-width="3"></circle>
+        <line
+          style="color: white"
+          x1="17"
+          y1="17"
+          x2="26"
+          y2="25"
+          stroke="currentColor"
+          stroke-width="3"></line>
+      </svg>
+    </div>
+  </div>
+
+  <div  class="govuk-section-break govuk-section-break--l govuk-section-break--visible"">
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <p id="contents-split" class="govuk-body-m">Contents</p>
+        </li>
+      </ol>
+    </div>
+
+     <p class="govuk-body-m">This manual is for:</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>local authority, health, and education SEND leads</li>
+          <li>local authority IT and digital leads</li>
+          <li>data controllers and responsible officers</li>
+          <li>suppliers of software for EHCP or information management</li>
+        </ul>
+
+       
+
+  {% endblock %}
+</div>

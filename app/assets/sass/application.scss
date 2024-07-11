@@ -29,3 +29,156 @@ input[type='text']:focus {
   background-color: #ffdd00;
   color: #0b0c0c;
 }
+
+//Prototype ver 3 css
+
+#test-banner {
+  font-size: 20px;
+} // Test banner css
+
+#blue-information-box {
+  background-color: #1d70b8;
+  padding: 30px;
+  border: 0;
+  margin-bottom: 20px;
+} //blue box design
+
+#blue-information-title {
+  color: white;
+  margin-bottom: 50px;
+} //title within the blue box
+
+#blue-information-url-text {
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 20px;
+} // pre text for the url
+
+#blue-information-url {
+  color: white;
+  font-weight: bold;
+} // url
+
+#search-bar {
+  width: 500px;
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+} //searchbar
+
+#search-bar-icon {
+  margin-bottom: -15px;
+  margin-left: -5px;
+  background-color: black;
+} // searchbar icon background
+
+#contents-split {
+  margin-bottom: 0px;
+} //contents split distance from linebreak
+
+//collection prototype
+
+//notification button
+#notification-button {
+  background-color: white;
+  color: #1d70b8;
+  border-color: #0b0c0c;
+  border-width: 0.5px;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+#print-button {
+  background-color: white;
+  color: #1d70b8;
+  border-color: #0b0c0c;
+  border-width: 0.5px;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+#bell-icon {
+  color: #0b0c0c;
+}
+
+// dashed list
+
+#dashed-list {
+  margin-bottom: 50px;
+}
+
+.collection-dashed-link {
+  text-decoration: none;
+}
+
+.list-item--dashed span::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  width: 20px;
+  overflow: hidden;
+}
+
+.list-item--dashed {
+  position: relative;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.list__list-item {
+  padding-top: 7.5px;
+}
+
+// grey call to action
+#grey-call-to-action {
+  background-color: #f3f2f1;
+  padding: 2em;
+  margin-bottom: 30px;
+}
+
+#content-call-to-action {
+  margin: 0px;
+}
+
+//main content
+.underlink-content {
+  color: #505a5f;
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+}
+
+#document-details {
+  color: #505a5f;
+}
+
+#document-details2 {
+  color: #505a5f;
+}
+
+.pdf-details {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.pdf-text {
+  font-size: 70px;
+}
+
+#pdf-title {
+  white-space: nowrap;
+}
+
+//one third css
+#blue-border-break {
+  border-top: 2px solid #1d70b8;
+  padding-top: 0;
+  margin-top: 0;
+}
