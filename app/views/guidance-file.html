@@ -1,0 +1,220 @@
+{% extends "layouts/main.html" %} {% block pageTitle %} GOV.UK page template – {{ serviceName }} –
+GOV.UK Prototype Kit {% endblock %} {% block content %}
+
+<div>
+  <header class="govuk-grid-row manuals-header"></header>
+</div>
+
+<div class="govuk-width-container">
+  <!-- <main class="govuk-main-wrapper"> -->
+
+  <div class="govuk-phase-banner">
+    <p class="govuk-phase-banner__content">
+      <strong class="govuk-tag govuk-phase-banner__content__tag"> Test </strong>
+      <span style="font-size: 20px" class="govuk-phase-banner__text">
+        This prototype is prototype is for research purposes 
+      </span>
+    </p>
+  </div>
+
+  <div class="govuk-breadcrumbs">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="manual-proto-december">Home</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="manual-proto-v3.html"
+          >Education Health Care Plan (EHCP)</a
+        >
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="guidance.html"
+          >Minimum functionalities </a
+        >
+</li>
+    </ol>
+  </div>
+
+<a class="dfe-header__link" href="/" aria-label="DfE homepage">
+        
+<img class="dfe-logo-image" src="public/images/dfe-logo-alt.png" alt="The Department for Education logo"></img>
+
+      </a>
+
+<hr class="govuk-section-break govuk-section-break--m">
+
+<div class="govuk-panel header-panel govuk-!-margin-bottom-6">
+<span class="govuk-caption-xl header-panel">Guidance</span>
+<h1 class="govuk-heading-xl header-panel govuk-!-margin-bottom-1">Education Health Care Plan (EHCP) minimum functionalities </h1>
+<p class="govuk-body header-panel govuk-!-margin-bottom-0">Updated 15 August 2024</p>
+</div>
+ 
+  <main class="govuk-main-wrapper">
+    <div class="govuk-grid-row">
+       <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-s govuk-!-font-weight-regular">Contents</h3>
+        <ul class="govuk-list">
+           <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">Minimum functionalities</a>
+  </li>
+  <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">EHCP process visibility and final version</a>
+  </li>
+  <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">Access control</a>
+  </li>
+  <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">Image and video contributions</a>
+  </li>
+  <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">Login, error prevention and recovery</a>
+  </li>
+   <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">Saving</a>
+  </li>
+   <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">Storage and ability to function on different devices</a>
+  </li>
+   <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">System errors </a>
+  </li>
+   <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">Notifications</a>
+  </li>
+   <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">Accessibility and usability</a>
+  </li>
+   <li>
+    <a class="govuk-link govuk-link--no-underline govuk-!-font-size-16" href="#">Import/export functionality and formats</a>
+  </li>
+
+  <hr class="govuk-section-break govuk-section-break--m">
+
+  <button type="submit" class="govuk-button notification-button govuk-!-font-size-16 data-module="govuk-button" data-module="govuk-button" ><img class="printer-image" src="public/images/icon-print.png" alt="printer icon" >Print this page</button>
+
+      </div>
+      <div class="govuk-grid-column-two-thirds">
+        <h2 class="govuk-heading-l">Minimum functionalities </h2>
+        <p class="govuk-body">Minimum functionality refers to a set of requirements that a system needs so it can meet the needs of its users and stakeholders. </p>
+        <p class="govuk-body">Using the MoSCoW grading (must have, should have, could have) for how important things are, we cover the main features that a system must have. Some requirements are 'should have'. These are requirements which provide local authorities and end users with options. They will not stop the system from working as it should, but they will make it useful for more users. </p>
+       <p class="govuk-body">A lot of these features are supported by the standard and schema. </p>
+       <ul class="govuk-list">
+         </li>
+   <li>
+    <a class="govuk-link " href="#">Data Standard</a>
+  </li>
+   <li>
+    <a class="govuk-link " href="#">Data Schema</a>
+  </li>
+       </ul>
+
+        <h2 class="govuk-heading-l">EHCP process visibility and final version</h2>
+        <p class="govuk-body">Your system must give transparency to parents, carers, families, caseworkers and other contributors so they can monitor and track the status of EHCPs. This will show which stages are complete, and which require input. </p>
+        <p class="govuk-body">Your system must allow Special Educational Needs and Disabilities (SEND) teams and health professionals to track cases by statutory deadlines. </p>
+        <p class="govuk-body">Your system should allow for a final version of the EHCP that can be: </p>
+        <ul class="govuk-list govuk-list--bullet">
+        <li>approved by all relevant people </li>
+        <li>locked down to avoid further editing </li>
+        <li>submitted within the 20-week period </li>
+        </ul>
+        <p class="govuk-body">It must allow contributors to view relevant sections of the EHCP after it is submitted. </p>
+        <p class="govuk-body">It must produce a Plan that complies with the standardised template. </p>
+
+<h2 class="govuk-heading-l">Access control</h2>
+<p class="govuk-body">Users must have individual accounts to access the system. Role-based access will vary across the EHCP process, but it must be clear who has updated the EHC record and when. </p>
+<p class="govuk-body">All contributors must have view access throughout the process. </p>
+<p class="govuk-body">Data must not be overwritten, including parents, carers and self-contributors, advocate for self, or over-16s and ownership. </p>
+<p class="govuk-body">Your system must have an audit trail.</p>
+
+<h2 class="govuk-heading-l">Image and video contributions</h2>
+<p class="govuk-body">Your system must allow for contributors to upload images, video and audio files to enable representation of a child/young person. </p>
+<p class="govuk-body">Parent / carer consent form capturing consent for multimedia - specify holding this consent and signature.</p>
+<p class="govuk-body">Images and videos should be held in standard formats to enable use on a wide variety of devices. </p>
+
+<h2 class="govuk-heading-l">Login, error prevention and recovery</h2>
+<p class="govuk-body">Your system should include:  </p>
+<ul class="govuk-list govuk-list--bullet">
+<li>multi-factor authentication for setting up username and password and for logging in </li>
+<li>ways for users to resolve sign-in issues themselves  </li>
+<li>    a password recovery function </li>
+<li>     timeout, logging users out of a screen left inactive for a certain time  </li>
+<li>       the ability for users to see an individual's previously published EHCP(s)  </li>
+</ul>
+
+<h2 class="govuk-heading-l">Saving</h2>
+<p class="govuk-body">Your system must give the ability to save updates. This includes:   </p>
+<ul class="govuk-list govuk-list--bullet">
+<li>    auto-save for written text and uploaded documents to prevent users from losing contributions  </li>
+<li>    a save button that saves updates in the back end of the system and notifies users when updates are saved successfully  </li>
+<li>        a save button at each stage  </li>
+</ul>
+
+<h2 class="govuk-heading-l">Storage and ability to function on different devices </h2>
+<p class="govuk-body">Your system must have a minimum storage capacity of xxx so that they can operate appropriately. </p>
+<p class="govuk-body">It must work on different devices, including:   </p>
+<ul class="govuk-list govuk-list--bullet">
+<li>desktop </li>
+<li>tablet </li>
+<li>mobile </li>
+</ul>
+
+<h2 class="govuk-heading-l">System errors </h2>
+<ul class="govuk-list govuk-list--bullet">
+<li>provide clear error messages when a user inputs something incorrectly – giving them the ability to solve the mistake themselves  </li>
+<li>A clearly defined escalation process in the situation where an error message cannot resolve the users input  </li>
+</ul>
+
+<h2 class="govuk-heading-l">Notifications </h2>
+<p class="govuk-body">Notifications must:  </p>
+<ul class="govuk-list govuk-list--bullet">
+<li>have different language for different notifications depending on who the notification is for. This should be determined between LAs and suppliers  </li>
+<li>consider preferred method for communication  </li>
+<li>have some sort of identifier to identify child, young person  </li>
+<li>be sent at key stages of the process  </li>
+</ul>
+<p class="govuk-body">In terms of the content of the notifications, they should notify users through an on-screen message: </p>
+<ul class="govuk-list govuk-list--bullet">
+<li>that a task has been completed – items selected, text saved, or upload successfully made via an on-screen message. </li>
+</ul>
+<p class="govuk-body">Notifications must not be generic and should be specific. They should always refer to a specific EHCP rather than "you have something to complete" - they need an identifier that doesn’t contravene GDPR. </p>
+<p class="govuk-body">Notifications need to give users the option of preferred method of communication. </p>
+
+<h2 class="govuk-heading-l">Accessibility and usability </h2>
+<p class="govuk-body">The system should:  </p>
+<ul class="govuk-list govuk-list--bullet">
+<li>provide the same digital experience across all devices, browsers and with assistive technology </li>
+<li>be tested with and then support screen readers, high contrast mode and others  </li>
+<li>meet WCAG x.x for various software / OSs - testing would vary  </li>
+<li>provide the child/young person, parents and carers with offline experiences so they do not rely on digital system access to complete EHCPS  </li>
+</ul>
+<p class="govuk-body">The system must provide the CYP, parents and carers with offline experiences so they do not rely on digital system access to engage. </p>
+
+<h2 class="govuk-heading-l">Import/export functionality and formats</h2>
+<p class="govuk-body">The system must support: </p>
+<ul class="govuk-list govuk-list--bullet">
+<li>sharing EHC records in a format compliant with the templates and the data standard </li>
+<li>creating or storing a plan which complies with the standard EHCP template  </li>
+<li>downloadable and shareable formats despite connection </li>
+<li>controlling what can be imported and exported by who </li>
+</ul>
+<p class="govuk-body">Wider reporting needs include SEN2, finance reporting – which require data to be imported and exported to (specification) </p>
+<p class="govuk-body">Importing notes/ proofs/ any other artefacts/ attachments </p>
+
+</div>
+    </div>
+
+    <hr class="govuk-section-break govuk-section-break--m">
+
+<a class="govuk-link app-c-back-to-top govuk-!-display-none-print" href="#contents">
+    <svg class="app-c-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
+    </svg>
+    Back to top
+</a>
+
+      
+  </main>
+</div>
+
+  {% endblock %}
+</div>
