@@ -80,16 +80,19 @@ input[type='text']:focus {
 //collection prototype
 
 //notification button
-#notification-button {
+.notification-button {
   background-color: white;
   color: #1d70b8;
   border-color: #0b0c0c;
   border-width: 0.5px;
   box-shadow: none;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding: 10px;
+  display: flex;
+  align-items: center;
 }
+.printer-image {
+  margin-right: 10px;
+}
+
 #print-button {
   background-color: white;
   color: #1d70b8;
@@ -181,4 +184,16 @@ input[type='text']:focus {
   border-top: 2px solid #1d70b8;
   padding-top: 0;
   margin-top: 0;
+}
+
+//guidance html file (guidance-file)
+.header-panel {
+  background-color: #1d70b8;
+  text-align: left;
+  color: white;
+}
+
+.dfe-logo-image {
+  width: 15%;
+  height: 15%;
 }
