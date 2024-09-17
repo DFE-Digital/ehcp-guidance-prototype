@@ -187,7 +187,6 @@ input[type='text']:focus {
   margin-top: 0;
 }
 
-
 //guidance html file (guidance-file)
 .header-panel {
   background-color: #1d70b8;
@@ -198,5 +197,9 @@ input[type='text']:focus {
 .dfe-logo-image {
   width: 15%;
   height: 15%;
+}
+
+#search-button {
+  background-color: black;
 }
 
