@@ -1,0 +1,120 @@
+{% extends "layouts/main.html" %} {% block pageTitle %} GOV.UK page template – {{ serviceName }} –
+GOV.UK Prototype Kit {% endblock %} {% block content %}
+
+<div>
+  <header class="govuk-grid-row manuals-header"></header>
+</div>
+
+<div class="govuk-phase-banner">
+  <p id="test-banner" class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">Test</strong>
+    <span class="govuk-phase-banner__text">
+      This prototype is for user research with local authorities to test ideas and prompt
+      discussions.
+    </span>
+  </p>
+</div>
+
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="manual-proto-v3">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="manual-proto-v3"
+        >Digitising education, health and care plans</a
+      >
+    </li>
+  </ol>
+</div>
+
+<div class="govuk-panel header-panel govuk-!-margin-bottom-6">
+<h1 class="govuk-heading-xl header-panel govuk-!-margin-bottom-1">Data standard and digital requirements for education, health and care (EHC) plans </h1>
+<div  class="govuk-section-break govuk-section-break--l "></div>
+<p class="govuk-body-s header-panel govuk-!-margin-bottom-0">From - <a href="#" class="govuk-link--inverse govuk-!-font-weight-bold">Department for Education</a></p>
+<p class="govuk-body-s header-panel govuk-!-margin-bottom-0">Published 15 August 2024</p>
+<p class="govuk-body-s header-panel govuk-!-margin-bottom-0">Updated: 24 August 2024 -  <a href="#" class="govuk-link--inverse govuk-!-font-weight-bold">See all updates</a></p>
+<div  class="govuk-section-break govuk-section-break--l "></div>
+<input class="govuk-input govuk-!-width-three-quarters" id="event-search" name="eventSearch" type="text">
+<button type="submit" class="govuk-button  data-module="govuk-button" id="search-button" >
+<svg class="gem-c-search__icon" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <circle cx="12.0161" cy="11.0161" r="8.51613" stroke="currentColor" stroke-width="3"></circle>
+  <line x1="17.8668" y1="17.3587" x2="26.4475" y2="25.9393" stroke="currentColor" stroke-width="3"></line>
+</svg>
+</button>
+</div>
+
+  <h2 class="govuk-heading-l">Understand your requirements</h2>
+ 
+  <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+
+<p class="govuk-body">Before you start the digitalisation of your EHCP processes, you need to know:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>what your current systems, processes and ways of working are</li>
+ <li>want you want and need to improve based on user needs</li>
+ <li>the risks and challenges and plan for these</li>
+</ul>
+
+<p class="govuk-body">Your digital EHCP processes will have to:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>meet the EHCP data standard</li>
+<li>use the EHCP data schema</li>
+<li>use the standard EHCP templates</li>
+<li>meet EHCP minimum requirements for system functionality.</li>
+</ul>
+
+   <h2 class="govuk-heading-l">How things work now (current ways of working/your ‘as-is’)</h2> 
+   <p class="govuk-body">Work in partnership and involve all key stakeholders in mapping out your current EHCP processes and the time and resource needed to complete these processes.</p>
+<p class="govuk-body">Include IT and information governance colleagues, your integrated care board (ICB), education and healthcare professionals as well as caseworkers, SEND leads, SENDIASS and educational psychologists. </p>
+<p class="govuk-body">You will need to: </p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>	understand how your EHCP processes and systems have developed over time  </li>
+<li>	understand your existing infrastructure (who does what, how and at what stage of the process)  </li>
+<li>	know how existing systems use and store data and how you want to improve and manage this moving forward  </li>
+<li>	understand your internal and external reporting requirements (For example, SEN2)</li>
+<li>	gather existing user needs, validate and update where needed</li>
+<li>	know how end users interact with existing systems, including what works well and what doesn’t work well  </li>
+<li>	consider how online and offline processes interact and work with each other</li>
+<li>	identify ways digital services can improve ways of working and better meet people’s needs </li>
+<li>	consider things that are out of your control that may stop, slow down or limit the digitalization of your EHCP processes</li>
+</ul>
+
+<h2 class="govuk-heading-l">Information governance</h2> 
+<p class="govuk-body">Some processes take longer than others and have multiple stakeholders. Consider in detail, the time needed to agree and sign off: </p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>	data sharing agreements </li>
+<li>	privacy notices between local authorities and NHS information governance professionals </li>
+<li>	parental consent that aligns with healthcare standards of consent </li>
+</ul>
+
+<h2 class="govuk-heading-l">How you want things to work in the future (assess your needs)</h2> 
+<h3 class="govuk-heading-m">What does success look like for internal stakeholders and your end users.</h3> 
+<p class="govuk-body">Parents, carers, healthcare and education professionals. Those that need to use and access the product:</p>
+<ul class="govuk-list govuk-list--bullet">
+   <li>Usability - make sure your system can work on mobile devices</li>
+ <li>Healthcare and education professionals need to be able to upload, write or add reports </li>
+ <li>Make it easy and make users feel supported - some SEND leads/local authority representatives lack confidence, knowledge and experience of digital projects </li>
+
+</ul>
+
+<p class="govuk-body">Notifications/alerts need to be clear for users:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>	Healthcare and education professionals need to know who/what the any alerts refer to </li>
+<li>	DCOs get alerts for every transaction/update on a request, so they cannot distinguish the ones they need to address ASAP – can alerts be prioritised/queued?</li>
+<li>	Parents/carers with multiple children with an EHCP don’t know which child the notifications are concerning</li>
+<p class="govuk-body">If a healthcare or education professional changes job and a child needs to transfer to a new person, this has to be done by individual child. This can be time consuming if they support a large number of children (LAs said the same thing).</p>
+
+<h2 class="govuk-heading-l">What’s the minimum you need to do.</h2> 
+<h2 class="govuk-heading-l">Understand external barriers to digitisation</h2> 
+<h2 class="govuk-heading-l">Digital exclusion</h2> 
+
+</ul>
+<hr class="govuk-section-break govuk-section-break--m">
+<button type="submit" class="govuk-button govuk-button--inverse " style="border: 1px solid #b1b4b6;box-shadow: none;font-size: 16px;display: flex;align-items: center;padding:10px" data-module="govuk-button"><img class="printer-image" src="public/images/icon-print.png" alt="printer icon" >Print this page</button>
+
+</div>
+</div>
+
+  {% endblock %}
+</div>
